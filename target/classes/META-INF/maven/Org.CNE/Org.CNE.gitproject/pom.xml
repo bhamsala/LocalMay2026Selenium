@@ -3,29 +3,30 @@
   <groupId>Org.CNE</groupId>
   <artifactId>Org.CNE.gitproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
+ <dependencies>
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.18.1</version>
-</dependency>
-<dependency>
+ </dependency>
+  <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
     <version>6.2.0</version>
 </dependency>
 	<!-- for TDD BDD1framework->-->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+   </dependency>
 	<dependency>
-		<groupId>Org.testng</groupId>
-		<artifactId>testng</artifactId>
-		<version>7.8.0</version>
-	</dependency>
-		<dependency>
 		<groupId>io.cucumber</groupId>
 		<artifactId>cucumber-java</artifactId>
 		<version>7.17.0</version>
 	</dependency>
-		<dependency>
+	<dependency>
 		<groupId>io.cucumber</groupId>
 		<artifactId>cucumber-testng</artifactId>
 		<version>7.17.0</version>
@@ -46,8 +47,7 @@
 		<groupId>com.itextpdf</groupId>
 		<artifactId>itextpdf</artifactId>
 		<version>5.5.10</version>
-	</dependency>
-	
+	</dependency>	
 	<dependency>
 		<groupId>ru.yandex.qatools.ashot</groupId>
 		<artifactId>ashot</artifactId>
